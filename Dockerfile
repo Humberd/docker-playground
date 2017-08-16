@@ -1,0 +1,4 @@
+FROM node:8.3.0
+
+EXPOSE 4321
+

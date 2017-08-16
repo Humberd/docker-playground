@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "server": "ts-node ./src/server.ts"
+    "start": "ts-node ./src/server.ts"
   },
   "author": "Humberd",
   "license": "ISC",
