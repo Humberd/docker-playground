@@ -2,8 +2,8 @@
 FROM node:8.3.0-alpine
 MAINTAINER Humberd
 
-ADD package.json /tmp/package.json
-ADD package-lock.json /tmp/package.json
+ADD package.json /tmp
+ADD package-lock.json /tmp
 RUN cd /tmp && npm install
 RUN mkdir -p /usr/src/app && cp -a /tmp/node_modules /usr/src/app/
 
